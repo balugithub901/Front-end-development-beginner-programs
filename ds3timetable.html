@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .timetable {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        .timetable th, .timetable td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .timetable th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .timetable tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .timetable tr:hover {
+            background-color: #ddd;
+        }
+        .timetable caption {
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<table class="timetable">
+    <caption>Class Work Timetable (2024-25)</caption>
+    <thead>
+        <tr>
+            <th>Day / Hr</th>
+            <th>10:00 AM to 11:00 AM</th>
+            <th>11:00 AM to 12:00 PM</th>
+            <th>12:00 PM to 01:15 PM</th>
+            <th>01:15 PM to 03:15 PM</th>
+            <th>03:45 PM to 04:45 PM</th>
+            <th>04:45 PM to 05:45 PM</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MON</td>
+            <td>EMSME (MOOC)</td>
+            <td>ML (705)</td>
+            <td rowspan="5">LUNCH BREAK</td>
+            <td>WT LAB Room No: 510</td>
+            <td>CC</td>
+            <td>PA (MOOC)</td>
+        </tr>
+        <tr>
+            <td>TUE</td>
+            <td>DAA (704)</td>
+            <td>CC (704)</td>
+            <td>CC LAB Room No: 510</td>
+            <td>WT</td>
+            <td>DM (MOOC)</td>
+        </tr>
+        <tr>
+            <td>WED</td>
+            <td>WT</td>
+            <td>ML</td>
+            <td>DAA LAB Room No: 510</td>
+            <td>DAA</td>
+            <td>DM (MOOC)</td>
+        </tr>
+        <tr>
+            <td>THU</td>
+            <td>PA (MOOC)</td>
+            <td>DM (MOOC)</td>
+            <td>ML LAB Room No: 510</td>
+            <td>WT</td>
+            <td>EMSME (MOOC)</td>
+        </tr>
+        <tr>
+            <td>FRI</td>
+            <td>ML</td>
+            <td>CC</td>
+            <td>CC LAB Room No: 510</td>
+            <td>PA (MOOC)</td>
+            <td>LIB</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
